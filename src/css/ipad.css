@@ -1,0 +1,38 @@
+@media only screen and (min-width: 768px) {
+    nav{
+        width: 85%;
+        max-width: 900px;
+        grid-template-columns: 10% 1fr 5% 5%;
+        grid-template-rows: 60px;
+    }
+    .logo{
+        grid-column: 1 / 1;
+        width: 160%;
+        max-width: 110px;
+    }
+    .search-bar{
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        height: 40px;
+        margin-top: 40px;
+    }
+    .search-bar::after{
+        right: 2%;
+    }
+
+    .login-section{
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;
+        margin-top: 40px;
+    }
+    .itens-purchased{
+        grid-column: 4 / 4;
+        grid-row: 1 / 1;
+        margin-top: 40px;
+        width: 120%;
+    }
+    .itens-purchased .itens-counter-div{
+        top: -15px;
+    }
+
+}

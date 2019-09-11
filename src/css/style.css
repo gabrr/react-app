@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1000px) {
+	.logo{
+		margin-top: 12px;
+		width: 100%;
+	}
+	.search-bar{
+		margin-top: 30px;
+	}
+	.login-section{
+		margin-top: 30px;
+	}
+	.itens-purchased{
+		margin-top: 30px;
+	}
+}
