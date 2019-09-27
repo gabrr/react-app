@@ -8,7 +8,7 @@
     .logo{
         grid-column: 1 / 1;
         width: 160%;
-        max-width: 110px;
+        max-width: 76px;
     }
     .search-bar{
         grid-column: 2 / 2;
