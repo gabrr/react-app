@@ -5,10 +5,6 @@ import userAvatar from '../img/user.svg';
 import shopCart from '../img/shopping-cart.svg';
 
 class Navbar extends Component {
-    state = {
-        name: 0
-    };
-
     render() {
         return (
             <div>

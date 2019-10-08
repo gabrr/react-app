@@ -5,6 +5,7 @@ import './css/mobile.css';
 import './css/ipad.css';
 import Navbar from "./modules/navbar";
 import Mainframe from "./modules/mainframe";
+import sideMenuItems from "./modules/sideMenuItems"
 
 
 
