@@ -17,20 +17,22 @@ class MenuItens extends Component {
                 {sideMenuItems.map(x =>
                     <div onClick={this.openCard} id={x.id} key={x.id}>
                         <h3 id={x.id}>{x.categoria}</h3>
-                        {sideMenuItems[x.target.id - 1].pos === true ? console.log(true) : console.log(false)}
+                        {x.itens.map(i => <p key={`${x.id}${i}`}>{i}</p>)}
                     </div>
                 )}
             </div>
         );
+        console.log(sideMenuItems);
     }
 
-    openCard(x) {
-        if (sideMenuItems[x.target.id - 1].pos === false) {
-            sideMenuItems[x.target.id - 1].pos = true;
-        } else {
-            sideMenuItems[x.target.id - 1].pos = false;
-        }
-    }
+    // openCard(x) {
+    //     if (sideMenuItems[x.target.id - 1].pos === false) {
+    //         sideMenuItems[x.target.id - 1].pos = true;
+    //     } else {
+    //         sideMenuItems[x.target.id - 1].pos = false;
+    //     }
+    // }
+
 }
 
 export default MenuItens;
