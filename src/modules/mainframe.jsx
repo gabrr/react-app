@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from './navbar';
+import SideMenu from './sideMenu';
 
 class Mainframe extends Component {
     render() {
         return (
             <div id="mainframe">
-                <Navbar />
+                <SideMenu />
             </div>
         );
     }
